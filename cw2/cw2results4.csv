@@ -1,0 +1,24 @@
+Model Number,Model Description,Max Val Acc,Min Val Loss,Min Val Loss Epoch
+0,CW1,24.74%,,
+1,Small CNN,29.60%,3.056,4
+2,Max Pooling Layers Added,36.43%,2.711,18
+3,Add Dense Layer (128 units),35.56%,2.712,25
+3a,Add Dense Layer (256 units),35.91%,2.680,17
+3b,Add Dense Layer (64 units),36.04%,2.6526,36
+4,Add Conv2d + Max Pool Layer,34.39%,2.698,38
+5,Increase Kernal Window to 4x4,34.69%,2.725,33
+6,Higher Learning Rate (1e-3),33.69%,2.686,5
+7,Lower Learning Rate (5e-5),35.61%,2.713,74
+8a,Increase starting filter size (64) Dense (64),36.01%,2.672,23
+8b,Increase starting filter size (128),34.93%,2.760,12
+8c,Filter size 64 - Dense 128,37.46%,2.608,9
+8d,Filter size 128 - Dense 2563,38.97%,2.553,5
+8e,Filter start 256 - Dense 512,40.84%,2.522,4
+9,No Padding,40.14%,2.518,7
+10,Additional Conv2d Max Pool,39.76%,2.447,5
+11,Additional Dense and Dropout Layers,48.29%,2.082,13
+12,Batch Normalization,50.00%,2.047,10
+14,Residuals,51.83%,1.944,7
+15,Depthwise Seperable Conv,48.00%,2.057,11
+16,Data Augmentation,51.83%,1.942,25
+17,VGG16,50.12%,2.134,18
